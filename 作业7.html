@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/bottom.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/top.css">
+	<style>
+		#frameTop{ width: 1230px;}
+		.Carousel{height: 470px;width: 100%}
+		.body01{height: 650px;}
+		.body01 .body01-top{height: 120px;text-align: center;margin-top: 50px}
+		.body01 .body01-top p{margin-top: 10px;color:rgb(155,155,155); }
+		.body01 .body01-body{width:30%;height: 300px;float: left;text-align: justify}
+		.body01 .body01-body .block{width:350px;height:200px;background: rgb(244,244,244);border-radius: 12px;text-align: center;}
+		.body01 .body01-body-1{margin-left: 3%;color: #9B9B9B;margin-right: 2%}
+		.body01 .body01-body .body01-body-p{font-size: 14px}
+		.body01 .body01-body-2{margin-right: 2%}
+		.body01 .body01-body-2 .block{background: rgb(247,123,111);}
+		.body01 .body01-body-2 .block p{color: #F4F4F4;}
+		.body01 .body01-body-2 p{color: #9B9B9B}
+		.body01 .body01-body-3{margin-right: 2%;color: #9B9B9B}
+		.body01 .body01-body .block p {padding-top: 130px}
+		.body01 .body01-body>p{width:350px;margin-right: 3%;margin-top: 20px}
+		.body01 .body01-bottom .b1-bottom-div{height:85px;width:830px;background: rgb(71,81,104);overflow: hidden;float: left;border-radius: 8px;color: #ffffff;line-height: 30px;padding-left: 20px;}
+		.body01 .body01-bottom .b1-bottom-div p{color: rgb(87,145,190);font-size: 14px}
+		.body01 .body01-bottom .b1-bottom-div h3{margin-top: 14px ;color: rgb(244,244,244)}
+		.body01 .body01-bottom .b1-bottom-div2 {width: 250px;height: 85px;background: rgb(247,123,111);float: left;border-radius: 8px;color: rgb(244,244,244);line-height: 85px;text-align: center;margin-left: 30px}
+		.body01 .body01-bottom{height: 90px;width:100%;margin: 80px 4% 70px;overflow: hidden;}
+		.body01 .body01-body{margin-bottom: 60px}
+		.body02{height: 530px;background: rgb(244,244,244);}
+		.body02 img{float: left;margin: 90px 90px 0 120px}
+		.body02 .body02-left{height:240px;width:45%;float: left}
+		.body02 .body02-left h2{margin-top: 116px;margin-bottom: 36px}
+		.body02 .body02-left p{height:100px;color:rgb(155,155,155);font-size: 13px;text-align: justify;margin-right: 70px;line-height: 20px}
+		.body02 .body02-left div{height: 60px;width: 182px;background: rgb(71,81,104);color:rgb(244,244,244);border-radius: 4px;font-size: 14px;text-align: center;line-height: 60px;margin-left: 0px;margin-top: 22px}
+		.body03 {height: 730px;margin: 0px 4% 0px 4%;}
+		.body03 .body03-left{width: 530px;height: 270px;background: rgb(244,244,244);float: left;margin-top: 60px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
+		.body03 .body03-left .b3-left-label{float: left;width: 33%;height: 56px;line-height: 56px;text-align: center;font-size: 14px}
+		.body03 .body03-left .b3-left-label-1{border-right: 2px solid #F4F4F4;border-top-left-radius: 8px;color: rgb(111,111,111)}
+		.body03 .body03-left .b3-left-label-2{background: rgb(111,111,111);color:rgb(244,244,244);border-right: 2px solid #F4F4F4}
+		.body03 .body03-left .b3-left-label-3{background: rgb(111,111,111);color:rgb(244,244,244);border-top-right-radius: 8px}
+		.body03 .body03-left .b3-left-body .b3-left-body-lattice .b3-left-body-l-01 h4{color:rgb(234, 123, 111)}
+		.body03 .body03-left .b3-left-body .b3-left-body-lattice{height: 55px;width:100%;float: left;margin-top: 14px;font-size: 14px}
+		.body03 .body03-left .b3-left-body .b3-left-body-lattice .b3-left-body-l-01 h4{font-size: 16px}
+		.body03 .body03-left .b3-left-body .b3-left-body-lattice .b3-left-body-l-01{float: left}
+		.body03 .body03-left .b3-left-body .b3-left-body-lattice img{float: left;margin: 0 16px 0}
+		.body03 .body03-right .b3-right-buttom{width: 464px;height: 58px;overflow: hidden;background: rgb(233,233,233);border-radius: 8px;font-size: 13px;padding: 28px 44px 24px 22px;color:rgb(123,123,123)}
+		.body03 .body03-right .b3-right-top img{width: 108px;height: 100px;float: left;margin-bottom: 20px;margin-right: 20px}
+		.body03 .body03-right .b3-right-top .b3-right-top-2{height: 100px;line-height: 24px;margin-left: 30px}
+		.body03 .body03-right .b3-right-top .b3-right-top-2 h4{padding-top: 30px;display: inline-block}
+		.body03 .body03-right .b3-right-top .b3-right-top-2 p{font-size: 14px;color: rgb(155,155,155);display: inline-block}
+		.body03 .body03-right .b3-right-top{margin-top: 50px;margin-left: 40px;float: left}
+		.body03-right{padding-top:20px ;}
+		.body03 .body03-bottom{height: 290px;margin-top:70px}
+		.body03 .body03-bottom h2{margin-bottom:22px}
+		.body03 .body03-bottom img{height: 190px;margin-right: 14px}
+		.body03 .body03-bottom .Symbol-item .Symbol{height: 36px;width: 66px;background: rgb(238,238,238);border-radius: 6px;line-height: 36px;color: rgb(123,123,123);float: left;text-align: center;}
+		.body03 .body03-bottom .Symbol-item{margin-left:calc(46% - 51px);margin-top: 26px}
+		.body03 .body03-bottom .Symbol-item .symbol-1{margin-right: 2%}
+		.body04{height: 355px;background: rgb(234,123,114);color: #ffffff;text-align: center}
+		.body04 i{font-size: 20px}
+		.body04 .body04-i-1{display: inline-block;margin-bottom: 10px;margin-top: 152px}
+		.body05{height: 143px;text-align: center;margin-top: 50px}
+
+
+	</style>
+</head>
+<body>
+	<div id="frameTop">
+		<ul class="nvp-top">
+			<li>Flat<span>Lab</span></li>
+			<li><a href="" >Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Feature</a></li>
+			<li><a href="">Portolio</a></li>
+			<li><a href="">Price</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contact</a></li>
+			<img src="images/1.png" alt="">
+		</ul>
+		<div id="Vice-frameTop"><span>PORTFOLIO</span>
+			<span>Home</span>/<span>Pages</span>/<span>Typograpy</span></div>
+
+		<img src="images/index1_02.gif.png" alt="" class="Carousel">
+
+		<div class="body01">
+			<div class="body01-top">
+				<h2>WELCOME TO FLATALB - SHARERD ON WEIDEA.NET</h2>
+				<p>Professional html Teaye Perfect for Admin Dashboard</p>
+			</div>
+			<div class="body01-body body01-body-1">
+				<div class="block"><p>RESPONSIVE DESIGN</p></div>
+				<p class="body01-body-p">Gisele famous many years ago,hermodel began. But her first show on the fashion week was not easy, she was rejected for 42 times！</p>
+			</div>
+			<div class="body01-body body01-body-2">
+				<div class="block"><p>RESPONSIVE DESIGN</p></div>
+				<p class="body01-body-p">Gisele famous many years ago,hermodel began. But her first show on the fashion week was not easy, she was rejected for 42 times！</p>
+			</div>
+			<div class="body01-body body01-body-3">
+				<div class="block"><p>RESPONSIVE DESIGN</p></div>
+				<p class="body01-body-p">Gisele famous many years ago,hermodel began. But her first show on the fashion week was not easy, she was rejected for 42 times！</p>
+			</div>
+			<div class="body01-bottom">
+				<div class="b1-bottom-div"><h3>DEVELOPER FRIENDLY CODE</h3><p>Her insistance brought her great success. She soon became. Gisele is a lengend in Brazil. </p></div ><div class="b1-bottom-div2">PURCHASE NOW</div>
+			</div>
+		</div>
+		<div class="body02">
+			<img src="images/index1_05.gif" alt="">
+			<div class="body02-left">
+				<h2>FLAT & MODERN TREND DESIGN</h2>
+				<p>After the opening ceremony of Rio Olympic ,but her wonderful body shape and confident. Her apperance made the opening ceremony the most sexy scene. This is her last show of waking on the stage, she would no longer work as a model but as a businesswoman. </p>
+				<div>PURCHASE NOW</div>
+			</div>
+		</div>
+
+		<div class="body03">
+			<div class="body03-left">
+				<div class="b3-left-label b3-left-label-1">News</div>
+				<div class="b3-left-label b3-left-label-2">Events</div>
+				<div class="b3-left-label b3-left-label-3">Notice board</div>
+				<div class="b3-left-body">
+					<div class="b3-left-body-lattice">
+						<img src="images/index1_12.gif" alt="">
+						<div class="b3-left-body-l-01"><h4>New Title goes here</h4><p>Lorem ipsum dolor sit amet,consectetur adiosicing elit.</p></div>
+					</div>
+					<div class="b3-left-body-lattice">
+						<img src="images/index1_16.gif" alt="">
+						<div class="b3-left-body-l-01"><h4>New Title goes here</h4><p>Lorem ipsum dolor sit amet,consectetur adiosicing elit.</p></div>
+					</div>
+					<div class="b3-left-body-lattice">
+						<img src="images/index1_12.gif" alt="">
+						<div class="b3-left-body-l-01"><h4>New Title goes here</h4><p>Lorem ipsum dolor sit amet,consectetur adiosicing elit.</p></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="body03-right">
+				<div class="b3-right-top">
+					<img src="images/index1_09.gif" alt="">
+					<div class="b3-right-top-2">
+						<h4>ERICSON REAGAN</h4>
+						<p>ABC Realesyaye LLc</p>
+					</div>
+				</div>
+				<div class="b3-right-buttom"> You have to take care of the children and set the good example, it is the lifetime mission. Once being a dink, then you are free to go anywhere and live for yourself. As people are under great pressure, more young people have the idea to be a dink.</div>
+			</div>
+		<div class="body03-bottom">
+			 <h2>RECNT WORK</h2>
+			<div class="Picture grid">
+				<img src="images/index1_23.gif" alt="">
+				<img src="images/index1_23.gif" alt="">
+				<img src="images/index1_23.gif" alt="">
+				<img src="images/index1_23.gif" alt="">
+			</div>
+			<div class="Symbol-item">
+				<div class="Symbol symbol-1"><strong>&lt;</strong></div><div class="Symbol"><strong>&#62;</strong></div>
+			</div>
+		</div>
+		</div>
+
+		<div class="body04">
+		<i class="body04-i-1">"And here i am using mu own lungs like a sucjer.How is educayion supposed to make </i>
+			<br> <i class="body04-i-2">me feel smarter?"</i>
+		</div>
+
+		<div class="body05">
+			<img src="images/label.png" alt="">
+		</div>
+		
+		<div  id="bottom01">
+			<div class="bot01-div01">
+				<span>CONEACT INFO</span>
+				<span>Address:no286387 street</span>
+				<span>lorem inpsum city,County</span>
+				<span>phone:(123)456-7890</span>
+				<span>Fix:(123)456.789</span>
+				<span>Email:  <a>supping@vetrorlab.com</a> </span>
+			</div>
+			<div class="bot01-div02" >
+				<span>LATEST TWEET</span>
+				<span >More Templatse</span>
+				<span >-collect from</span>
+			</div>
+			<div class="bot01-div03">
+				<div>STAY CONNECTED</div><span></span><span></span><span></span><span></span><span>
+		</span><span></span><span></span><span></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

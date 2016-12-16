@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/bottom.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/top.css">
+	<style>
+		#frameTop{ width: 1230px;}
+		.body01{height: 3674px}
+		.body01 .body-left{width: 72%;height: 700px;float: left;border-bottom:dashed 1px #cccccc }
+		.body01 .body-right{width: 25%;height:1300px;float: left;margin-top: -228%;margin-left: 10px}
+		.body01 .body-left .b-l-l{height: 550px;width:7.8%;float: left;margin-right: 146px}
+		.body01 .body-left .b-l-l .Date{height: 108px;width: 120px;margin:42px 30px 24px 64px}
+		.body01 .body-left .b-l-l .Date .Date-top{background: rgb(247,123,111);height: 65px;border-top-left-radius: 6px;border-top-right-radius: 6px;color:rgb(246,245,240);font-size: 30px;line-height: 65px;text-align: center }
+		.body01 .body-left .b-l-l .Date .Date-bottom{background:rgb(246,245,240);height: 43px;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;color: rgb(161,161,161) ;line-height: 43px;text-align: center }
+		.body01 .body-left .b-l-l .Date-2{height: 90px;width: 120px;margin-left: 64px;margin-bottom: 152px}
+		.body01 .body-left .b-l-l .Date-2 .Date-top-2{background: rgb(239,238,233);height: 50px;border-top-left-radius: 6px;border-top-right-radius: 6px;}
+		.body01 .body-left .b-l-l .Date-2 .Date-bottom-2{background:rgb(246,245,240);height: 40px;color:rgb(161,161,161);line-height: 40px;text-align: center;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;font-size: 14px }
+		.body01 .body-left .b-l-l .b1-label{ width: 100px;margin-left:80px;font-size: 14px}
+		.body01 .body-left .b-l-l .b1-label i{display: block}
+		.body01 .body-left .b-l-l .b1-label .b1-label-i-1{margin-top: 38px}
+		.body01 .body-left .b-l-l .b1-label div{color: rgb(247,123,111)}
+		.body01 .body-left .b-l-l .b1-label div span{color:rgb(91,91,91)}
+		.body01 .body-left .b-l-l .b1-label .b1-label-div-1{margin-top: 28px}
+		.body01 .body-left .b-l-l .b1-label div,.body01 .body-left .b-l-l .b1-label i,.body01 .body-left .b-l-l .b1-label span{text-align: right;}
+		.body01 .body-left .b-l-r{height: 550px;width: 75.2%;float: left}
+		.body01 .body-left .b-l-r img{margin-top: 40px;width: 668px;border-radius: 8px}
+		.body01 .body-left .b-l-r h2{color:rgb(247,123,111)}
+		.body01 .body-left .b-l-r-h2-1{margin-top: 28px;margin-bottom: 6px}
+		.body01 .body-left .b-l-r p{font-size: 14px;margin-top: 28px}
+		.body01 .body-left .b-l-r div{height: 36px;width: 150px;background:rgb(247,123,111);color:rgb(246,245,240);font-size: 15px;border-radius: 6px;line-height: 36px;text-align: center;margin:16px 0  44px }
+		.body01 .body-right input{height: 36px;width: 266px;border-radius: 4px;border: #cccccc 1px solid;font-size: 16px;color:rgb(177,177,177);padding-left: 14px;margin: 44px 0 36px 4px}
+		.body01 .body-right .body-right-special{font-size: 14px;height: 44px;width: 266px;border-bottom: solid #DADADA 1.2px;line-height: 44px;padding-left: 16px}
+		.body01 .body-right .body-right-d img{float: left;width: 80px;height: 80px;margin: 0px 8px 0 -12px}
+		.body01 .body-right .body-right-d{width:290px;margin-bottom: 20px}
+		.body01 .body-right{padding-left:24px}
+		.body01 .body-right .body-right-h3-2{margin-top: 32px;margin-bottom: 18px}
+		.body01 .body-right .body-right-d .body-right-d-d p{font-size: 14px;color: rgb(91,91,91)}
+		.body01 .body-right .body-right-h3-3{margin: 40px 0 22px}
+		.body01 .body-right .body-right-botton>span{display:inline-block;padding: 0 10px 0;border: 1px solid #cccccc;border-radius: 4px;margin-right: 14px;margin-top: 10px;line-height: 40px;text-align: center;font-size: 14px}
+		.body01 .body-right .body-right-h3-4{margin-top: 48px;margin-bottom: 10px}
+		.body01 .body-right .body-right-special-02 .body-right-special-1{font-size: 14px;height: 44px;width: 266px;border-bottom: solid #DADADA 1.2px;line-height: 44px;padding-left: 16px;margin-left: 8px}
+		.index{height: 34px;width: 250px;text-align: center;line-height: 34px;float: left;position: relative;top: 758px;right: 500px}
+		.index div{float: left;width: 33px;height: 34px;border-right: #cccccc solid 1px;border-top: #cccccc solid 1px;border-bottom: #cccccc solid 1px;}
+		.index .index-1{border-left: #cccccc solid 1px;border-top-left-radius: 8px;border-bottom-left-radius: 8px; }
+		.index .index-7{border-top-right-radius: 8px;border-bottom-right-radius: 8px;}
+		#bottom01{overflow: hidden}
+	</style>
+</head>
+<body>
+	<div id="frameTop">
+		<ul class="nvp-top">
+			<li>Flat<span>Lab</span></li>
+			<li><a href="" >Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Feature</a></li>
+			<li><a href="">Portolio</a></li>
+			<li><a href="">Price</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contact</a></li>
+			<img src="images/1.png" alt="">
+		</ul>
+		<div id="Vice-frameTop"><span>PORTFOLIO</span>
+			<span>Home</span>/<span>Pages</span>/<span>Typograpy</span></div>
+
+	<div class="body01">
+
+		<div class="body-left">
+			<div class="b-l-l">
+				<div class="Date"><div class="Date-top">10</div><div class="Date-bottom">September</div></div>
+				<div class="Date-2"><div class="Date-top-2"></div><div class="Date-bottom-2">15</div></div>
+				<div class="b1-label">
+					<div style="font-size: 18px"><span>By</span>&nbsp;Admin</div>
+					<i class="b1-label-i-1">travel</i>
+					<i>recreation</i>
+					<i>tour</i>
+					<i>tourison</i>
+					<div class="b1-label-div-1">209 View</div>
+					<div>23 Share</div>
+				</div>
+			</div>
+
+			<div class="b-l-r">
+				<img src="images/123.png" alt="">
+				<h2 class="b-l-r-h2-1">Suspendisse dignissim in sem eget pulivinar,Mauris</h2>
+				<h2>aliquam nulla at libero pretium.</h2>
+				<p>As the Halloween is coming soon, there are many stores selling the relative products and many kids are attracted deeply. This festival originated in western country and now the world is celebrating it. Every year, there will be a big parade and all kinds of horrible images appear. The ghosts, the walking deads and vampires are favored by the young people, they like to dress like these images and join the parade. For the kids, they like to hang out together and ask for candy from door to door. </p>
+				<div>Cointinue Reading</div>
+			</div>
+		</div>
+		<div class="body-left">
+			<div class="b-l-l">
+				<div class="Date"><div class="Date-top">10</div><div class="Date-bottom">September</div></div>
+				<div class="Date-2"><div class="Date-top-2"></div><div class="Date-bottom-2">15</div></div>
+				<div class="b1-label">
+					<div style="font-size: 18px"><span>By</span>&nbsp;Admin</div>
+					<i class="b1-label-i-1">travel</i>
+					<i>recreation</i>
+					<i>tour</i>
+					<i>tourison</i>
+					<div class="b1-label-div-1">209 View</div>
+					<div>23 Share</div>
+				</div>
+			</div>
+
+			<div class="b-l-r">
+				<img src="images/123.png" alt="">
+				<h2 class="b-l-r-h2-1">Suspendisse dignissim in sem eget pulivinar,Mauris</h2>
+				<h2>aliquam nulla at libero pretium.</h2>
+				<p>As the Halloween is coming soon, there are many stores selling the relative products and many kids are attracted deeply. This festival originated in western country and now the world is celebrating it. Every year, there will be a big parade and all kinds of horrible images appear. The ghosts, the walking deads and vampires are favored by the young people, they like to dress like these images and join the parade. For the kids, they like to hang out together and ask for candy from door to door. </p>
+				<div>Cointinue Reading</div>
+			</div>
+		</div>
+		<div class="body-left">
+			<div class="b-l-l">
+				<div class="Date"><div class="Date-top">10</div><div class="Date-bottom">September</div></div>
+				<div class="Date-2"><div class="Date-top-2"></div><div class="Date-bottom-2">15</div></div>
+				<div class="b1-label">
+					<div style="font-size: 18px"><span>By</span>&nbsp;Admin</div>
+					<i class="b1-label-i-1">travel</i>
+					<i>recreation</i>
+					<i>tour</i>
+					<i>tourison</i>
+					<div class="b1-label-div-1">209 View</div>
+					<div>23 Share</div>
+				</div>
+			</div>
+
+			<div class="b-l-r">
+				<img src="images/123.png" alt="">
+				<h2 class="b-l-r-h2-1">Suspendisse dignissim in sem eget pulivinar,Mauris</h2>
+				<h2>aliquam nulla at libero pretium.</h2>
+				<p>As the Halloween is coming soon, there are many stores selling the relative products and many kids are attracted deeply. This festival originated in western country and now the world is celebrating it. Every year, there will be a big parade and all kinds of horrible images appear. The ghosts, the walking deads and vampires are favored by the young people, they like to dress like these images and join the parade. For the kids, they like to hang out together and ask for candy from door to door. </p>
+				<div>Cointinue Reading</div>
+			</div>
+		</div>
+		<div class="body-left">
+			<div class="b-l-l">
+				<div class="Date"><div class="Date-top">10</div><div class="Date-bottom">September</div></div>
+				<div class="Date-2"><div class="Date-top-2"></div><div class="Date-bottom-2">15</div></div>
+				<div class="b1-label">
+					<div style="font-size: 18px"><span>By</span>&nbsp;Admin</div>
+					<i class="b1-label-i-1">travel</i>
+					<i>recreation</i>
+					<i>tour</i>
+					<i>tourison</i>
+					<div class="b1-label-div-1">209 View</div>
+					<div>23 Share</div>
+				</div>
+			</div>
+
+			<div class="b-l-r">
+				<img src="images/123.png" alt="">
+				<h2 class="b-l-r-h2-1">Suspendisse dignissim in sem eget pulivinar,Mauris</h2>
+				<h2>aliquam nulla at libero pretium.</h2>
+				<p>As the Halloween is coming soon, there are many stores selling the relative products and many kids are attracted deeply. This festival originated in western country and now the world is celebrating it. Every year, there will be a big parade and all kinds of horrible images appear. The ghosts, the walking deads and vampires are favored by the young people, they like to dress like these images and join the parade. For the kids, they like to hang out together and ask for candy from door to door. </p>
+				<div>Cointinue Reading</div>
+			</div>
+		</div>
+		<div class="body-left">
+			<div class="b-l-l">
+				<div class="Date"><div class="Date-top">10</div><div class="Date-bottom">September</div></div>
+				<div class="Date-2"><div class="Date-top-2"></div><div class="Date-bottom-2">15</div></div>
+				<div class="b1-label">
+					<div style="font-size: 18px"><span>By</span>&nbsp;Admin</div>
+					<i class="b1-label-i-1">travel</i>
+					<i>recreation</i>
+					<i>tour</i>
+					<i>tourison</i>
+					<div class="b1-label-div-1">209 View</div>
+					<div>23 Share</div>
+				</div>
+			</div>
+
+			<div class="b-l-r">
+				<img src="images/123.png" alt="">
+				<h2 class="b-l-r-h2-1">Suspendisse dignissim in sem eget pulivinar,Mauris</h2>
+				<h2>aliquam nulla at libero pretium.</h2>
+				<p>As the Halloween is coming soon, there are many stores selling the relative products and many kids are attracted deeply. This festival originated in western country and now the world is celebrating it. Every year, there will be a big parade and all kinds of horrible images appear. The ghosts, the walking deads and vampires are favored by the young people, they like to dress like these images and join the parade. For the kids, they like to hang out together and ask for candy from door to door. </p>
+				<div>Cointinue Reading</div>
+			</div>
+		</div>
+
+		<div class="index">
+			<div class="index-1">&laquo;</div>
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div class="index-7">&raquo;</div>
+		</div>
+
+
+		<div class="body-right">
+			<input type="text" value="Search here" >
+			<h3>Catefories</h3>
+			<div class="body-right-special">Animals</div>
+			<div class="body-right-special">Animals</div>
+			<div class="body-right-special">Animals</div>
+			<div class="body-right-special">Animals</div>
+			<div class="body-right-special">Animals</div>
+
+			<h3 class="body-right-h3-2">Lastes Blog Post</h3>
+			<div class="body-right-d"><img src="images/1234.png" alt="">
+				<div class="body-right-d-d">
+					<h4>02 May 2013</h4><p>Donecid elit non miposta gragbida at eget metus amentint</p>
+				</div>
+			</div>
+			<div class="body-right-d"><img src="images/1234.png" alt=""><div class="body-right-d-d"><h4>02 May 2013</h4><p>Donecid elit non miposta gragbida at eget metus amentint</p></div></div>
+			<div class="body-right-d"><img src="images/1234.png" alt=""><div class="body-right-d-d"><h4>02 May 2013</h4><p>Donecid elit non miposta gragbida at eget metus amentint</p></div></div>
+		
+			<h3 class="body-right-h3-3">Tags</h3>
+			<div class="body-right-botton">
+				<span>flat</span><span>clean</span><span>admin</span><span>UI</span>
+				<span>responsive</span><span>Web Design</span><span>UIX</span>
+				<span>Blog</span><span>flat Adimin</span><span>Dashboard</span>
+			</div>
+
+
+			<h3 class="body-right-h3-4">Aarcgive</h3>
+			<div class="body-right-special-02">
+				<div class="body-right-special-1">May 2012</div>
+				<div class="body-right-special-1">May 2012</div>
+				<div class="body-right-special-1">May 2012</div>
+				<div class="body-right-special-1">May 2012</div>
+				<div class="body-right-special-1">May 2012</div>
+			</div>
+
+		
+		</div>
+	</div>
+
+
+		<div  id="bottom01">
+			<div class="bot01-div01">
+
+				<span>CONEACT INFO!!</span>
+				<span>Address:no286387 street!</span>
+
+
+				<span>lorem inpsum city,County</span>
+				<span>phone:(123)456-7890</span>
+				<span>Fix:(123)456.789</span>
+				<span>Email:  <a>supping@vetrorlab.com</a> </span>
+			</div>
+			<div class="bot01-div02" >
+				<span>LATEST TWEET</span>
+				<span >More Templatse</span>
+				<span >-collect from</span>
+			</div>
+			<div class="bot01-div03">
+				<div>STAY CONNECTED</div><span></span><span></span><span></span><span></span><span>
+		</span><span></span><span></span><span></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
